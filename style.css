@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.gambar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gambar1 {
+    cursor: pointer;
+}
+
+.gambar1 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    background-color: green;
+    width: 350px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.gambar2 {
+    cursor: pointer;
+}
+
+.gambar2 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    background-color: green;
+    width: 350px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.gambar3 {
+    cursor: pointer;
+}
+
+.gambar3 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    background-color: green;
+    width: 350px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+@media (max-width: 768px) {
+    .gambar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gambar1, .gambar2, .gambar3 {
+        min-width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .gambar1 button, .gambar2 button, .gambar3 button {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .title h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gambar1 button, .gambar2 button, .gambar3 button {
+        font-size: 16px;
+    }
+
+    .title h2 {
+        font-size: 20px;
+    }
+}
