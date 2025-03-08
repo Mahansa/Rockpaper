@@ -2,11 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
 }
 
 .title {
     display: flex;
     justify-content: center;
+    background-color: rgba(16, 99, 99, 0.781);
 }
 
 .gambar {
@@ -15,9 +17,7 @@ body {
     flex-wrap: wrap;
 }
 
-.gambar1 {
-    cursor: pointer;
-}
+
 
 .gambar1 button {
     display: flex;
@@ -32,9 +32,7 @@ body {
     font-size: 21px;
 }
 
-.gambar2 {
-    cursor: pointer;
-}
+
 
 .gambar2 button {
     display: flex;
@@ -49,9 +47,7 @@ body {
     font-size: 21px;
 }
 
-.gambar3 {
-    cursor: pointer;
-}
+
 
 .gambar3 button {
     display: flex;
@@ -64,6 +60,18 @@ body {
     cursor: pointer;
     font-weight: bold;
     font-size: 21px;
+}
+
+.hasil{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+.hasil2{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
 }
 
 @media (max-width: 768px) {
