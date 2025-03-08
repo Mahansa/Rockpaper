@@ -7,49 +7,49 @@ function play(player) {
 
     if (player === 0) { 
         if (computer === 0) {
-            output.innerHTML += `Pemain memilih   : gunting<br>`;
-            output.innerHTML += `Komputer memilih : gunting<br>`;
-            output.innerHTML += `Hasil            : seri<br>`;
+            output.innerHTML += `<h3>Pemain memilih   : gunting<br>`;
+            output.innerHTML += `<h3>Komputer memilih : gunting<br>`;
+            output.innerHTML += `<h3>Hasil            : seri<br>`;
         } else if (computer === 1) {
-            output.innerHTML += `Pemain memilih   : gunting<br>`;
-            output.innerHTML += `Komputer memilih : batu<br>`;
-            output.innerHTML += `Hasil            : kalah<br>`;
+            output.innerHTML += `<h3>Pemain memilih   : gunting<br>`;
+            output.innerHTML += `<h3>Komputer memilih : batu<br>`;
+            output.innerHTML += `<h3>Hasil            : kalah<br>`;
         } else if (computer === 2) {
-            output.innerHTML += `Pemain memilih   : gunting<br>`;
-            output.innerHTML += `Komputer memilih : kertas<br>`;
-            output.innerHTML += `Hasil            : menang<br>`;
+            output.innerHTML += `<h3>Pemain memilih   : gunting<br>`;
+            output.innerHTML += `<h3>Komputer memilih : kertas<br>`;
+            output.innerHTML += `<h3>Hasil            : menang<br>`;
         }
     }
 
     if (player === 1) { 
         if (computer === 0) {
-            output.innerHTML += `Pemain memilih   : batu<br>`;
-            output.innerHTML += `Komputer memilih : gunting<br>`;
-            output.innerHTML += `Hasil            : menang<br>`;
+            output.innerHTML += `<h3>Pemain memilih   : batu<br>`;
+            output.innerHTML += `<h3>Komputer memilih : gunting<br>`;
+            output.innerHTML += `<h3>Hasil            : menang<br>`;
         } else if (computer === 1) {
-            output.innerHTML += `Pemain memilih   : batu<br>`;
-            output.innerHTML += `Komputer memilih : batu<br>`;
-            output.innerHTML += `Hasil            : seri<br>`;
+            output.innerHTML += `<h3>Pemain memilih   : batu<br>`;
+            output.innerHTML += `<h3>Komputer memilih : batu<br>`;
+            output.innerHTML += `<h3>Hasil            : seri<br>`;
         } else if (computer === 2) {
-            output.innerHTML += `Pemain memilih   : batu<br>`;
-            output.innerHTML += `Komputer memilih : kertas<br>`;
-            output.innerHTML += `Hasil            : kalah<br>`;
+            output.innerHTML += `<h3>Pemain memilih   : batu<br>`;
+            output.innerHTML += `<h3>Komputer memilih : kertas<br>`;
+            output.innerHTML += `<h3>Hasil            : kalah<br>`;
         }
     }
 
     if (player === 2) {  
         if (computer === 0) {
-            output.innerHTML += `Pemain memilih   : kertas<br>`;
-            output.innerHTML += `Komputer memilih : gunting<br>`;
-            output.innerHTML += `Hasil            : kalah<br>`;
+            output.innerHTML += `<h3>Pemain memilih   : kertas<br>`;
+            output.innerHTML += `<h3>Komputer memilih : gunting<br>`;
+            output.innerHTML += `<h3>Hasil            : kalah<br>`;
         } else if (computer === 1) {
-            output.innerHTML += `Pemain memilih   : kertas<br>`;
-            output.innerHTML += `Komputer memilih : batu<br>`;
-            output.innerHTML += `Hasil            : menang<br>`;
+            output.innerHTML += `<h3>Pemain memilih   : kertas<br>`;
+            output.innerHTML += `<h3>Komputer memilih : batu<br>`;
+            output.innerHTML += `<h3>Hasil            : menang<br>`;
         } else if (computer === 2) {
-            output.innerHTML += `Pemain memilih   : kertas<br>`;
-            output.innerHTML += `Komputer memilih : kertas<br>`;
-            output.innerHTML += `Hasil            : seri<br>`;
+            output.innerHTML += `<h3>Pemain memilih   : kertas<br>`;
+            output.innerHTML += `<h3>Komputer memilih : kertas<br>`;
+            output.innerHTML += `<h3>Hasil            : seri<br>`;
         }
     }
 }
