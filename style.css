@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/* Main menu */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(16, 99, 99, 0.781);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+nav li {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Opening section */
+.opening h1 {
+    font-size: 37px;
+}
+
+.opening p {
+    margin-right: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(29, 28, 28);
+}
+
+/* Games section */
+.Games {
+    display: flex;
+    justify-content: center;
+}
+
+.games1 {
+    display: flex;
+}
+
+/* Gunting batu kertas page */
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(16, 99, 99, 0.781);
+}
+
+.gambar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gambar1 button, .gambar2 button, .gambar3 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    background-color: green;
+    width: 350px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.hasil, .hasil2 {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .nav ul {
+        gap: 30px;
+    }
+
+    .gambar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gambar1, .gambar2, .gambar3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .gambar1 button, .gambar2 button, .gambar3 button {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 526px) {
+    .gambar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gambar1, .gambar2, .gambar3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .gambar1 button, .gambar2 button, .gambar3 button {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .title h1 {
+        font-size: 25px;
+    }
+
+    .opening p {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gambar1 button, .gambar2 button, .gambar3 button {
+        font-size: 14px;
+    }
+
+    .title h1 {
+        font-size: 22px;
+    }
+
+    .opening p {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .games1 {
+        flex-direction: column;
+    }
+}
